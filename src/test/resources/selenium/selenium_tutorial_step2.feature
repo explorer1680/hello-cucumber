@@ -17,7 +17,7 @@ Feature: Reset functionality on login page of Application of tutorial step 2
     Examples:
 
       |username  |password         |
-
+# '"' is needed here.
       |"User1"     |"password1"     |
 
       |"User2"     |"password2"     |
