@@ -1,3 +1,4 @@
+@smoke @regression
 Feature: Reset functionality on login page of Application of tutorial step 1
 
 

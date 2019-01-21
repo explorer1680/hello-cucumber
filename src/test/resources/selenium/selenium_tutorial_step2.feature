@@ -1,5 +1,5 @@
 #Here we update the feature file with 'Scenario Outline' and  'examples' syntax.
-
+@regression
 Feature: Reset functionality on login page of Application of tutorial step 2
 
 

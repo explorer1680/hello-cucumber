@@ -1,0 +1,12 @@
+mvn test -Dcucumber.options="--tags @smoke"
+
+mvn test -Dcucumber.options="--tags @regression"
+
+features with @regression and @smoke
+mvn test -Dcucumber.options="--tags @regression --tags @smoke"
+
+features with @regerssion or @smoke
+mvn test -Dcucumber.options="--tags @regression,@smoke"
+please note, there no space between the wording: '@regression,@smoke'
+
+https://stackoverflow.com/questions/34538571/dcucumber-options-how-to-have-multiple-tags
