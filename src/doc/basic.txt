@@ -5,4 +5,10 @@ https://www.toolsqa.com/cucumber-tutorial/
 options:
 https://www.toolsqa.com/cucumber/cucumber-options/
 
+entry points:
+test class with annotation: @RunWith(Cucumber.class)
+
+then it will find feature files, and read the definitions for Given, When, Then...
+and try to match them with the annotation @Given, @When, @Then... in java classes.
+
 you don't need features and glue if your feature file and step file are in the same package (or under it) of your test class.
